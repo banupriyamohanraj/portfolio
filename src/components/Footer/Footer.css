@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+.Footer__Container{
+   
+    color:#25C998;
+    /* background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(19, 40, 95)); */
+    background-color: #1A1D53;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+.col-12{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}

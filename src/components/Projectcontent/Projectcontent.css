@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+.Project_title{
+  background-color:white !important;
+    color:#1A1D53;
+  padding: 60px;
+  padding-top: 80px;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+
+ 
+}
+.projectCard__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+
+}
+
+.projectCard__container{
+padding-top: 40px;
+
+
+
+}
+
+
+
+.card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color:#1A1D53;
+  font-family: 'Merienda', cursive;
+}
+
+.card:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+ color: #1A1D53;
+ font-family: 'Merienda', cursive;
+}

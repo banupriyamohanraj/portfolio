@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
+.Topcontent{
+    color:white;
+    font-family: 'Merienda', cursive;
+    /* font-family: 'Knewave', sans-serif; */
+    letter-spacing: 2px !important;
+}
+
+.topcontent_container{
+    position: absolute;
+    top:230px;
+  right:350px;
+  font-family: 'Merienda', cursive;
+    align-items: center;
+    justify-items: center;
+}
+.Topcontent__Left{
+    z-index: -1;
+}
+.img_col{
+ padding-left:170px;
+
+}
+.info_col{
+    padding-top:40px;
+    
+}
+
+
+
+.topcontent_container>h4{
+letter-spacing: 1px;
+font-family: 'Merienda', cursive;
+padding-left: 0px;
+
+
+}
+.topcontent_containerRow.col-7>h4{
+    letter-spacing: 1px;
+padding: 20px;padding-left: 0px;
+
+}
+.topcontent_containerRow.col-7>h1{
+    font-family: 'Merienda', cursive;
+    
+}
+
+
+.topcontent__icon>a{
+    padding-top: 50px;
+    padding-right:20px;
+    
+}
+
+.topcontent_containerRow{
+  
+   justify-content: center;
+   display: flex;
+   z-index: 9999;
+}
+.topcontent_containerRow.col-5{
+    display: flex;
+    padding:0px !important;
+    
+}
+.topcontent_containerRow.col-7{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    letter-spacing: 3px;
+
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+.Contactcontent{
+    font-family: 'Merienda', cursive;
+
+}
+
+
+.Contactcontent__Title{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding:20px;
+    background-color:white !important;
+    color:#1A1D53;
+  padding: 60px;
+  padding-top: 80px;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+
+.Contactcontent__Row{
+    padding:10px 40px ;
+}
+
+.Contactcontent__RowButton{
+    padding:10px 50px
+}
+
+.contacticon{
+    align-items: center;
+    display:flex;
+padding:60px 0 0 0;
+    margin-top:50px;
+  text-indent: 40px;
+  justify-content: center;
+
+}
+
+.form-group >input{
+    border-color: #1A1D53;
+}
