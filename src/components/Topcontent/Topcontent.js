@@ -10,7 +10,7 @@ import pdf from "../../BANUPRIYA_MOHANRAJ_CV.PDF"
 
 export default function Topcontent({ isVisible }) {
 
-  const Bounce = styled.div`animation : 10s ${keyframes`${bounce}`} infinite`;
+  const Bounce = styled.div`animation : 20s ${keyframes`${bounce}`} infinite`;
   const [toggle, set] = useState(false)
   const transitions = useTransition(toggle, {
     from: { position: 'absolute', opacity: 0 },
@@ -148,7 +148,7 @@ export default function Topcontent({ isVisible }) {
           </div>
 
           <div className="col-7 info_col">
-            <Fade right ><h1>Hello, I'm <span className="font__Color">B</span>ANU <span className="font__Color">P</span>RIYA</h1>
+            <Fade right ><h1><Bounce>Hello, I'm <span className="font__Color">B</span>ANU <span className="font__Color">P</span>RIYA</Bounce></h1>
             </Fade>
             <br />
             <Fade right  >
