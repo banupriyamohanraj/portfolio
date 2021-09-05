@@ -28,9 +28,9 @@ export default function Projectcontent() {
     return <>
         <div className="Projectcontent">
             <div className="Project_title">
-                <Slide bottom> <h3>Projects</h3> </Slide>
+                <Slide left> <h3>Projects</h3> </Slide>
             </div>
-            <Slide bottom>
+            <Slide left>
 
                 <div className="container-fluid projectCard__container">
                     <div class="row projectCard__container ">
