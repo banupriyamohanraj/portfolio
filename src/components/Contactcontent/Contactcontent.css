@@ -1,43 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
 
-.Contactcontent{
-    font-family: 'Merienda', cursive;
-
+.Contactcontent {
+  font-family: "Merienda", cursive;
 }
 
-
-.Contactcontent__Title{
-    text-align: center;
-    align-items: center;
-    display: flex;
-    padding:20px;
-    background-color:white !important;
-    color:#1A1D53;
-  padding: 60px;
-  padding-top: 80px;
+.Contactcontent__Title {
   text-align: center;
-  font-family: 'Merienda', cursive;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  background-color: white !important;
+  color: #1a1d53;
+  padding: 60px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Merienda", cursive;
 }
 
-.Contactcontent__Row{
-    padding:10px 40px ;
+.Contactcontent__Title > h2 {
+  color: #1a1d53;
 }
 
-.Contactcontent__RowButton{
-    padding:10px 50px
+.Contactcontent__Row {
+  padding: 10px 40px;
 }
 
-.contacticon{
-    align-items: center;
-    display:flex;
-padding:60px 0 0 0;
-    margin-top:50px;
+.Contactcontent__RowButton {
+  padding: 10px 50px;
+}
+
+.contacticon {
+  align-items: center;
+  display: flex;
+  padding: 60px 0 0 0;
+  margin-top: 30px;
   text-indent: 40px;
   justify-content: center;
-
 }
 
-.form-group >input{
-    border-color: #1A1D53;
+.form-group > input {
+  border-color: #1a1d53;
 }

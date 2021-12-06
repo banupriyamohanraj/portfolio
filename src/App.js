@@ -8,6 +8,7 @@ import Skillcontainer from './components/SkillContainer/Skillcontainer';
 import Projectcontainer from './components/Projectcontainer/Projectcontainer';
 import Contactcontainer from './components/Contactcontainer/Contactcontainer';
 import Footer from './components/Footer/Footer';
+import Resumecontainer from './components/Resumecontainer/Resumecontainer'
 require('dotenv').config();
 
 
@@ -22,7 +23,7 @@ function App() {
   <div className="App">
   <Header/>
   <Topcontainer/>
-
+  <Resumecontainer/>
   <Skillcontainer/>
   <Projectcontainer/>
 

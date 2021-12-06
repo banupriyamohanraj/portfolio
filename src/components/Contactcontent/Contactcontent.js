@@ -36,7 +36,7 @@ export default function Contactcontent() {
     <div className="Contactcontent">
 
       <div className="Contactcontent__Title justify-content" >
-        <Slide right><h3>Contact Me</h3></Slide>
+        <Slide right><h2>Contact Me</h2></Slide>
       </div>
       <Slide bottom>
         <form onSubmit={submit}>

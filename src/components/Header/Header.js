@@ -12,7 +12,9 @@ export default function Header() {
                <Link to="about" smooth={true} duration={500} activeClass="active" offset={-70} >
                     <h4>ABOUT</h4>
                 </Link>
-              
+              <Link to="resume" smooth={true} duration={500} activeClass="active" offset={-70} >
+              <h4>RESUME</h4>
+                  </Link>
                 <Link to="skills" smooth={true} duration={500}  offset={-70} >
                    <h4> SKILLS</h4>
                 </Link>

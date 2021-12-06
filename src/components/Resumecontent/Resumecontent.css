@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+.Resumecontent {
+  background-color: white;
+  align-items: center;
+  color: #1a1d53;
+  font-family: "Merienda", cursive;
+  height: 100vh;
+}
+
+.Resume_title {
+  background-color: white !important;
+  color: #1a1d53;
+  padding: 30px;
+  text-align: center;
+  font-family: "Merienda", cursive;
+}
+
+.Resume_title > h2 {
+  color: #1a1d53;
+}

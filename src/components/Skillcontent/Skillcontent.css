@@ -1,37 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
 
-.Skillcontainer_skillset{
-    background-color:white;
-   
-    color:#1A1D53;
-    font-family: 'Merienda', cursive;
-    padding-top: 50px;
-    
-}
+.Skillcontainer_skillset {
+  background-color: white;
 
-.Skillcontainer_skillset >h2{
-    text-align: center;
-padding-top:20px;
- padding-bottom: 50px;
- font-family: 'Merienda', cursive;
- 
-    
-}
-.Skillcontainer_skillicon{
-    padding-block:20px;
-    padding-bottom: 60px;
-    justify-content: space-evenly;
-   
-  
+  color: #1a1d53;
+  font-family: "Merienda", cursive;
+  padding-top: 30px;
 }
 
-.skill:hover{
-    transform: scale(1.2); 
+.Skillcontainer_skillset > h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-family: "Merienda", cursive;
+  color: #1a1d53;
 }
-.skill >p{
-    text-align: center;
+.Skillcontainer_skillicon {
+  padding-block: 20px;
+  padding-bottom: 60px;
+  justify-content: space-evenly;
 }
 
-.Skillcontainer_skillicon >a{
-text-align: center;
+.skill:hover {
+  transform: scale(1.2);
+}
+.skill > p {
+  text-align: center;
+}
+
+.Skillcontainer_skillicon > a {
+  text-align: center;
 }

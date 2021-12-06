@@ -10,14 +10,14 @@ import pdf from "../../BANUPRIYA_MOHANRAJ_CV.PDF"
 
 export default function Topcontent({ isVisible }) {
 
-  const Bounce = styled.div`animation : 20s ${keyframes`${bounce}`} infinite`;
+  const Bounce = styled.div`animation : 10s ${keyframes`${bounce}`} infinite`;
   const [toggle, set] = useState(false)
   const transitions = useTransition(toggle, {
     from: { position: 'absolute', opacity: 0 },
     enter: { opacity: 1 },
     leave: { opacity: 0 },
     reverse: toggle,
-    delay: 200,
+    delay: 300,
     config: config.molasses,
     onRest: () => set(!toggle),
   })
@@ -118,7 +118,7 @@ export default function Topcontent({ isVisible }) {
               },
               "bubble": {
                 "distance": 400,
-                "size": 40,
+                "size": 100,
                 "duration": 2,
                 "opacity": 8,
                 "speed": 3
@@ -143,12 +143,12 @@ export default function Topcontent({ isVisible }) {
       <div className="topcontent_container">
         <div className=" topcontent_containerRow">
           <div className="col-5 img_col">
-            <Fade left>  <img src="../Images/banu_profile.jpg" alt="" width="300px" height="300px" style={{ borderRadius: "50%" }}></img>
+            <Fade left>  <img src="../Images/girl.jpg" alt="" width="300px" height="300px" style={{ borderRadius: "50%" }}></img>
             </Fade>
           </div>
 
           <div className="col-7 info_col">
-            <Fade right ><h1><Bounce>Hello, I'm <span className="font__Color">B</span>ANU <span className="font__Color">P</span>RIYA</Bounce></h1>
+            <Fade right ><h1><Bounce>Hello, I'm <b>BANU PRIYA</b></Bounce></h1>
             </Fade>
             <br />
             <Fade right  >
@@ -186,7 +186,7 @@ export default function Topcontent({ isVisible }) {
                   </a>
                   </div>
                   <div className="contacticon__link">
-                  <button type="button" className="btn btn-outline-info"> <a href={pdf} target="_blank" rel="noreferrer" className="link">Download CV <i class="fas fa-download fa 2x"></i></a></button>
+                  <button type="button" className="btn btn-info"> <a href={pdf} target="_blank" rel="noreferrer" className="link">CV <i class="fas fa-download fa 2x"></i></a></button>
                 </div>
               </div>
             </Fade>

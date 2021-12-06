@@ -1,87 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 
-
-.Topcontent{
-    color:white;
-    font-family: 'Merienda', cursive;
-    /* font-family: 'Knewave', sans-serif; */
-    letter-spacing: 2px !important;
+.Topcontent {
+  color: white;
+  font-family: "Merienda", cursive;
+  /* font-family: 'Knewave', sans-serif; */
+  letter-spacing: 2px !important;
 }
 
-.topcontent_container{
-    position: absolute;
-    top:230px;
-  right:350px;
-  font-family: 'Merienda', cursive;
-    align-items: center;
-    justify-items: center;
+.topcontent_container {
+  position: absolute;
+  top: 230px;
+  right: 350px;
+  font-family: "Merienda", cursive;
+  align-items: center;
+  justify-items: center;
 }
-.Topcontent__Left{
-    z-index: -1;
+.Topcontent__Left {
+  z-index: -1;
 }
-.img_col{
- padding-left:50px;
-
+.img_col {
+  padding-left: 50px;
 }
-.info_col{
-    padding-top:40px;
-    
+.info_col {
+  padding-top: 40px;
 }
 
-.font__Color{
-    color: #25C998;
+.font__Color {
+  color: #25c998;
 }
 
-
-.topcontent_container>h4{
-letter-spacing: 1px;
-font-family: 'Merienda', cursive;
-padding-left: 0px;
-
-
+.topcontent_container > h4 {
+  letter-spacing: 1px;
+  font-family: "Merienda", cursive;
+  padding-left: 0px;
 }
-.topcontent_containerRow.col-7>h4{
-    letter-spacing: 1px;
-padding: 20px;padding-left: 0px;
-
+.topcontent_containerRow.col-7 > h4 {
+  letter-spacing: 1px;
+  padding: 20px;
+  padding-left: 0px;
 }
-.topcontent_containerRow.col-7>h1{
-    font-family: 'Merienda', cursive;
-    
+.topcontent_containerRow.col-7 > h1 {
+  font-family: "Merienda", cursive;
 }
 
-
-.topcontent__icon{
-    padding-top: 100px;
+.topcontent__icon {
+  padding-top: 100px;
 }
 
-.contacticon__link>a{
-   padding:10px;
+.contacticon__link > a {
+  padding: 10px;
 }
-.link{
-    color: #FFFFFF;
-    text-decoration: none;
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  /* border-color: #1a1d53; */
 }
-.topcontent_containerRow{
-  
-   justify-content: center;
-   display: flex;
-   z-index: 9999;
+.topcontent_containerRow {
+  justify-content: center;
+  display: flex;
+  z-index: 9999;
 }
-.topcontent_containerRow.col-5{
-    display: flex;
-    padding:0px !important;
-    
+.topcontent_containerRow.col-5 {
+  display: flex;
+  padding: 0px !important;
 }
-.topcontent_containerRow.col-7{
-    display: flex;
-    align-items: center;
-    text-align: start;
-    justify-content: center;
-    letter-spacing: 3px;
-
+.topcontent_containerRow.col-7 {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  letter-spacing: 3px;
 }
